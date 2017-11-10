@@ -1,0 +1,126 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<link rel="stylesheet" href="css.css">
+  
+
+
+</head>
+<body>
+<div id="wrapper">
+
+<header>
+<div id="logo">
+<h1><a href="index.html">AEPN.com</a></h1>
+</div>
+<div id="menu">
+<nav id="main_menu">
+<ul>
+<li><a href="index.html ">Home</a></li>
+<li><a href="About Us.html">About Us</a></li>
+<li><a href="">Room&Rates</a></li>
+<li><a href="">Our Property</a></li>
+<li><a href="">Contact</a></li>
+<li><a href="">Location</a></li>
+<li><a href="Book a Room.html ">Book a Room</a></li>
+
+</ul>
+</nav>
+</div>
+</header>
+ 
+
+
+
+<div id="content">
+<div class="main_content">
+<div id="slides">
+<div class="mySlides">
+<div id="image"></div>
+<div class="slides_title">Rooms</div>
+</div>
+
+ 
+ <div class="mySlides" id="slide1">
+<div id="image1"></div>
+<div class="slides_title">Location</div>
+</div>
+
+ 
+ 
+
+</div>
+	 <script>
+	  var myIndex = 0;
+	  carousel();
+
+	  function carousel() {
+    	  var i;
+    	  var x = document.getElementsByClassName("mySlides");
+    	  for (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+    	   myIndex++;
+    	   if (myIndex > x.length) {myIndex = 1}    
+    	   x[myIndex-1].style.display = "block";  
+    	   setTimeout(carousel, 6000);    
+	   }
+	</script>
+
+<div class="column">
+<div class="column_picture"></div>
+<div class="column_title">Rooms</div>
+<div class="column_text">
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere consectetur quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+</p>
+</div>
+<div class="more_info_t"><a title="more info" href="">More info</a></div>
+ 
+</div>
+	 
+
+<div class="column" id="column1">
+<div class="column_picture" id="pict1"></div>
+<div class="column_title">Location</div>
+<div class="column_text">
+<p>Sed convallis neque et tellus volutpat, a hendrerit magna interdum. Nulla vulputate lorem id ante vulputate iaculis. 
+</p>
+ </div>
+<div class="more_info_t"><a title="more info" href="">More info</a></div>
+ 
+</div>
+
+
+
+<div class="column" id="column2">
+<div class="column_picture" id="pict2"></div>
+<div class="column_title">Our Property</div>
+<div class="column_text">
+<p>
+Maecenas sed auctor dolor. Nullam ac erat dapibus leo feugiat euismod. Fusce feugiat vulputate risus at rhoncus. Aenean pretium, augue at pharetra.
+</p>
+</div> 
+<div class="more_info_t"><a title="more info" href="">More info</a></div>
+
+</div>
+
+
+ 
+
+  
+
+
+
+
+
+ 
+
+</div>
+</div>
+<footer>
+Copyright &copy 2017
+</footer>
+</div>
+</body>
+</html>

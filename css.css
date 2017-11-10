@@ -1,0 +1,128 @@
+
+/*Pocetak Home page*/
+#wrapper{text-align:center;width:980px;margin:15px auto;text-align:left;border:1px solid maroon;height:100%;}
+header{width:980px;margin:0px auto;text-align:left;border:1px solid maroon;height:200px;}
+h1 {width:162px;height:113px;border:1px solid maroon;position:absolute;left:580px;} 
+h1 a {display:block;height:113px;text-decoration:none;font:22px verdana,sans-serif;color:white;line-height:100px;text-align:center;}
+#logo {border:1px solid maroon;height:140px;background-color:maroon;}
+#menu {width:976px;height:55px;border:1px solid maroon;margin:auto;}
+#main_menu {background:#CCCCCC;padding:0px 0px;}
+#main_menu li {display:inline-block;list-style:none;padding:2px 16px;font: 19px verdana, sans-serif;}
+#main_menu li a {text-decoration:none;color:black;}
+#content {float:left;width:980px;border:1px solid maroon;height:100%;}
+.main_content{width:980px;height:1030px;} 
+.content_title {width:980px;height:50px;text-align:left;font-size:30px;}
+
+footer {clear:both;text-align:center;border:1px solid maroon;width:980px;height: 70px;display: block;color: white;background:maroon;font-size: 30px;position: relative;bottom:0px;line-height:60px;} 
+
+
+#slides { width:980px;height:500px;position:absolute;left:221px;top:230px;border:1px solid black;}
+.mySlides {width:980px;height:500px;position:absolute;left: 0px;top: 0px;}
+#mySlides1 {width:980px;height:500px;position:absolute;left: 0px;top: 0px;}
+.slides_title {width:980px;height:200px;line-height:100px;font-size:30px;text-align:center;}
+#image {width:980px;height:400px;border:1px solid black;background-image:url("https://images.pexels.com/photos/161791/goddards-country-house-house-home-161791.jpeg?h=350&auto=compress&cs=tinysrgb ");background-size: 100% 100%;}
+#image1 {width:980px;height:400px;border:1px solid black;background-image:url("https://images.pexels.com/photos/575226/pexels-photo-575226.jpeg?h=350&auto=compress&cs=tinysrgb");background-size: 100% 100%;}
+.column {width:310px;height:400px;border:1px solid maroon;position:absolute;top:750px;left:240px;}
+#column1 {width:310px;height:400px;border:1px solid maroon;position:absolute;top:750px;left:560px;}
+#column2 {width:310px;height:400px;border:1px solid maroon;position:absolute;top:750px;left:880px;}
+.column_picture {width:310px;height:150px;background-image:url("https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?h=350&auto=compress&cs=tinysrgb");background-size:100% 100%;}
+#pict1 {width:310px;height:150px;background-image:url("https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?h=350&auto=compress&cs=tinysrgb");background-size:100% 100%;}
+#pict2 {width:310px;height:150px;background-image:url("https://images.pexels.com/photos/161097/allgau-eisenberg-ostallgau-bavaria-161097.jpeg?h=350&auto=compress&cs=tinysrgb");background-size:100% 100%;}
+.column_title {width:310px;height:50px;text-align:left;padding-left:10px;font-size:20px;color: ;line-height:50px;}
+.column_text {width:300px;height:120px;padding-left:5px;position:absolute;top:200px;}
+.column_text p {font-size:18px;color: ;text-align:justify;text-indent:5px;}
+.more_info_t {width:300px;height:60px;background:maroon;text-align:left;position:absolute;top:310px;left:5px; }
+.more_info_t a {text-decoration:none;font-size:20px;line-height:50px;color:white;}
+ 
+/*Kraj Home page*/
+
+
+/*PocetakAbout Us*/
+.brief{width:970px;height:120px;position:absolute;top:260px;left:230px;}
+.brief p{ text-align:justify;font-size:20px;text-indent:20px;}
+.content_image {width:300px;height:400px;border:1px solid black;position:absolute;top:400px;left:235px;}
+.content_text {width:650px;height:700px;position:absolute;top:400px;left:540px;}
+.content_text p{text-align:justify;font-size:20px;text-indent:10px;}
+/*Kraj About Us*/
+
+
+/*PocetakRooms&Rates*/
+.main_title { width:940px;height:50px;position:absolute;top:260px;left:240px;text-align:left;font-size:30px;line-height:50px;}
+
+.box {width:940px;height:240px;border:1px solid black;position:absolute;top: 320px;left:230px;}
+.main_box_title { width:200px;height:50px;position:absolute;top: 0px;left:230px;text-align:left;font-size:24px;line-height:50px;}
+.box_image {width:200px;height:230px;border:1px solid black;position:absolute;top:5px;left:5px;}
+
+.box_image_one{width:200px;height:230px;border:1px solid black;position:absolute;top:5px;left:5px;}
+
+.box_image_two{width:200px;height:230px;border:1px solid black;position:absolute;top:5px;left:5px;}
+
+.box_text {width:500px;height:130px;position:absolute;top:20px;left:230px;}
+.box_text p {text-align:justify;font-size:20px;}
+.box_text_one{width:500px;height:130px;position:absolute;top:20px;left:230px;}
+.box_text_one p {text-align:justify;font-size:20px;}
+.box_text_two{width:500px;height:130px;position:absolute;top:20px;left:230px;}
+.box_text_two p{text-align:justify;font-size:20px;}
+
+.box_menu {width:200px;height:70px;position: absolute;top:80px;left:230px;}
+.box_menu ul {display:inline-block;list-style-type: circle;padding-left:15px;font:  18px verdana, sans-serif;}
+.offer_menu {width:500px;height:50px;position: absolute;top:150px;left:230px;border-top:1px solid green; }
+.offer_menu ul{list-style: none;padding:0px 5px;}
+.offer_menu li{display: inline;padding: 5px 0.8px;font-size:20px;}
+.price {width:200px;height:160px;position: absolute;top:10px;left:740px;}
+.from {width:200px;height:100px;}
+.from_title{ width:200px;height:50px;text-align:center;font-size:17px;line-height:50px;}
+.from_text{ width:200px;height:50px;}
+.from_text p {text-align:center;font-size:40px;margin:1px auto;}
+.more_info_one{width:200px;height:50px;background:#3a0404;}
+.more_info_one a {text-decoration:none;font-size:30px;text-align:center;margin:0px 30px;line-height:50px;color:white;}
+
+.more_info_two {width:200px;height:50px;background:#3a0404;position:absolute;top:100px;left:0px;}
+.more_info_two a {text-decoration:none;font-size:30px;text-align:center;margin:0px 30px;line-height:50px;color:white;}
+.more_info_three {width:200px;height:50px;background:#3a0404;position:absolute;top:100px;left:0px;}
+.more_info_three a{text-decoration:none;font-size:30px;text-align:center;margin:0px 30px;line-height:50px;color:white;}
+#main1 {width:940px;height:240px;border:1px solid black;position:absolute;top:600px;left:230px;}
+#main2 {width:940px;height:240px;border:1px solid black;position:absolute;top:880px;left:230px;}
+/*Kraj Rooms&Rates*/
+
+ 
+
+/*Pocetak Sobe*/
+.main_title_j { width:940px;height:50px;position:absolute;top:260px;left:240px;text-align:left;font-size:30px;line-height:50px;}
+
+.slider-wrap {width:980px;height:410px;position:absolute;top:310px;}
+.slider_content {width:980px;height:406px;position:absolute;left:3px;}
+.mySlides {width:965px;height:400px;}
+.box_p { width:940px;height:120px;border-bottom:1px solid black;position:absolute;top:700px;left:250px;}
+.box_p_title {width:150px;height:100px;position:absolute;top:10px;left:15px;line-height:100px;font-size:26px;text-align:center;}
+.box_p_text {width:250px;height:100px;position:absolute;top:10px;left:185px;}
+
+.box_p_text ul {position: absolute;top: 0px;left:0px;list-style-type: circle;}
+.box_p_text li {line-height:5px;font-size:23px;text-align:center;padding: 10px 10px;}
+#info {width:940pxè;height:190px;border-bottom:1px solid black;position:absolute;top:820px;left:250px;}
+.box_p_info {width:700px;height:160px;position:absolute;top:10px;left:210px;}
+.box_p_info p {font-size:23px;text-align:justify;text-indent:0px;}
+
+.amenities {width:940px;height:160px;border-bottom:1px solid black;position:absolute;top:1020px;left:250px;}
+.amenities_menu {width:500px;height:140px;position: absolute;top:10px;left:185px;}
+ul.a {position: absolute;top: 0px;left:0px;list-style-type: circle;} 
+ul.a li {font-size:23px;text-align:justify;text-indent:10px;}
+ul.b {position: absolute;top: 0px;left:300px;list-style-type: circle;} 
+ul.b li {font-size:23px;text-align:justify;text-indent:10px;}
+/*Kraj Sobe*/
+ 
+
+
+
+/**Our Property**/
+.property_box {width:400px;height:440px;border:1px solid black;margin:140px 20px;}
+.property_box_one{width:400px;height:440px;border:1px solid black;margin-top: -580px;margin-left:500px;}
+.property_box_two {width:400px;height:440px;border:1px solid black;margin:100px 20px;}
+.property_box_three{width:400px;height:440px;border:1px solid black;margin-top: -540px;margin-left:500px;}
+.property_title { width:400px;height:50px; border-bottom:1px solid black;text-align:left;font-size:30px;line-height:50px;}
+.property_text { width:400px;height:100px; }
+
+.property_text p { font-size:20px;text-align:justify;text-indent:10px; }
+
+/**Kraj Our Property**/
+  
